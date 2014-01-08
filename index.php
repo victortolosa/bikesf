@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html class="no-js">
     <head>
@@ -13,19 +12,6 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <?php
 /*wunderground API*/
-=======
-<!doctype html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' href='css/build.css' />
-<title>Should I Bike?</title>
-
-<?php
-/*wunderground API
-
->>>>>>> b777d8aaac7ec98d0c5a93a04c44440e87543db1
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml");
 $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/CA/San_Francisco.xml");
 $hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/CA/San_Francisco.xml");
@@ -43,13 +29,6 @@ $astronomy_info = $astronomy->xpath('moon_phase');
 $realtemp = $weather_info[0]->temp_f ;
 $feels = $weather_info[0]->feelslike_f;
 $icon;
-
-*/
-
-//Testing files
-  $weather = simplexml_load_file("xml/conditions.xml"); /* gets current observation */
-  $astronomy = simplexml_load_file("xml/astronomy.xml"); /* gets sunrise and sunset times */
-  $hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
 
 /*Sunrise fixed 24clock*/
 $sunrise = $astronomy_info[0]->sunrise->hour;
@@ -110,26 +89,26 @@ function hourlyforecast($i){
     $condition = $hourly->hourly_forecast->forecast[$i]->condition;
     $temp = $hourly->hourly_forecast->forecast[$i]->temp->english;
     if($condition == "cloudy" || $condition == "Fog" || $condition == "Partly Cloudy" || $condition == "Scattered Clouds"){
-    	$hrIcon = "A";
+      $hrIcon = "A";
     } else if( $condition == "Rain" || $condition == "Drizzle" || $condition == "Light Drizzle" || $condition == "Heavy Drizzle" || $condition == "Light Rain" || $condition == "Heavy Rain") {
-    	$hrIcon = "R";
+      $hrIcon = "R";
     } else {
-    	$hrIcon = "B";
+      $hrIcon = "B";
     }
     return "<li><span><h1>" . $hrIcon . "</h1><p>" . $time . " </p><p> " . $condition . "</p></span></li>";
 }
 
 /* start - declaring 8hr forecast variables */
 function forecast($condition){
-	global $hourly;
-	$hourlyForecast = $hourly->hourly_forecast->forecast[$condition]->condition;
-	return $hourlyForecast;
+  global $hourly;
+  $hourlyForecast = $hourly->hourly_forecast->forecast[$condition]->condition;
+  return $hourlyForecast;
 }
 
 function forecastTime($time){
-	global $hourly;
-	$hourlyForecastTime = $hourly->hourly_forecast->forecast[$time]->FCTTIME->civil;
-	return $hourlyForecastTime;
+  global $hourly;
+  $hourlyForecastTime = $hourly->hourly_forecast->forecast[$time]->FCTTIME->civil;
+  return $hourlyForecastTime;
 }
 /* end - declaring 8hr forecast variables */
 /*checks current weather*/
@@ -138,7 +117,7 @@ if ($currentWeather == "Drizzle" || $currentWeather == "Rain" || $currentWeather
     $bike = "Don't bike in";
     $icon = "R";
 } else {
-	$icon = "B";
+  $icon = "B";
     $bike = "It's okay to bike in";
 }
 /* warns for bad weather in 8hr forecast */
@@ -146,7 +125,7 @@ if ($currentWeather == "Drizzle" || $currentWeather == "Rain" || $currentWeather
 function checkForecast($checkthis){
 
 global $bike;
-	 if ($bike == "Yes" && (
+   if ($bike == "Yes" && (
     forecast($checkthis) == "Freezing Rain" ||
       forecast($checkthis) == "Rain" ||
       forecast($checkthis) == "Sleet" ||
@@ -163,8 +142,8 @@ $icon = "R";
       forecast($checkthis) == "Chance of Sleet" ||
       forecast($checkthis) == "Chance of Snow"){
     global $why;
-	global $icon;
-	$icon = "T";
+  global $icon;
+  $icon = "T";
     $why = "It's okay to bike, but consider" . forecast($checkthis). " at " . forecastTime($checkthis); 
     }
 }
@@ -179,7 +158,7 @@ checkForecast($i);
  if (forecast(0) == "Rain" || forecast(0) == "Light Drizzle" || forecast(0) == "Heavy Drizzle" || forecast(0) == "Drizzle" ||  forecast(0) == "Rain Showers") {
 global $bike;
 global $icon;
-	$icon = "R";
+  $icon = "R";
     $bike =  "Don't bike in";
     $why = "It's gonna rain soon!";
 
@@ -193,24 +172,24 @@ global $icon;
         <![endif]-->
         <div class="container">
         <div class="boolean">
-			<div class="answer">
-			<span class="current-info">
-				<h1 class="icon"><?php echo $icon; ?></h1>
-				<h3> <?php echo $weather_info[0]->temp_f ?>&deg;F<br><?php echo $weather_info[0]->weather ?></h3>
-			</span>
-			<h1> <?php echo $bike;?> <em>San Francisco.</em> <span class="arrow">+</span></h1>
-	
-			<ul class="data">
-			<li>Sunrise at: <?php echo $sunrise?>:<?php echo $astronomy_info[0]->sunrise->minute;?> <?php echo $sunriseTime?></li>
-			<li>Sunset at: <?php echo $sunset ?>:<?php echo $astronomy_info[0]->sunset->minute;?> <?php echo $sunsetTime?></li>
-			<li>Humidity: <?php echo $weather_info[0]->relative_humidity ?></li>
-			<li>Wind Direction: <?php echo $weather_info[0]->wind_dir ?></li>
-			<li>Wind Speed: <?php echo $weather_info[0]->wind_mph ?>MPH</li>
-			<li>Wind Chill: <?php echo $windchill; ?></li>
-			<li><?php echo $showperciptoday; ?></li>
-        	<li><?php echo $showperciphour; ?></li>
-			</ul>
-			</div>
+      <div class="answer">
+      <span class="current-info">
+        <h1 class="icon"><?php echo $icon; ?></h1>
+        <h3> <?php echo $weather_info[0]->temp_f ?>&deg;F<br><?php echo $weather_info[0]->weather ?></h3>
+      </span>
+      <h1> <?php echo $bike;?> <em>San Francisco.</em> <span class="arrow">+</span></h1>
+  
+      <ul class="data">
+      <li>Sunrise at: <?php echo $sunrise?>:<?php echo $astronomy_info[0]->sunrise->minute;?> <?php echo $sunriseTime?></li>
+      <li>Sunset at: <?php echo $sunset ?>:<?php echo $astronomy_info[0]->sunset->minute;?> <?php echo $sunsetTime?></li>
+      <li>Humidity: <?php echo $weather_info[0]->relative_humidity ?></li>
+      <li>Wind Direction: <?php echo $weather_info[0]->wind_dir ?></li>
+      <li>Wind Speed: <?php echo $weather_info[0]->wind_mph ?>MPH</li>
+      <li>Wind Chill: <?php echo $windchill; ?></li>
+      <li><?php echo $showperciptoday; ?></li>
+          <li><?php echo $showperciphour; ?></li>
+      </ul>
+      </div>
 
 
         </div>
@@ -218,7 +197,7 @@ global $icon;
             <ul>
                  <?php
         for ($x=0; $x<10; $x++){
-        	echo hourlyforecast($x);
+          echo hourlyforecast($x);
         }
         ?>
             </ul>
@@ -227,7 +206,7 @@ global $icon;
      
     <script>
     $(".arrow").on ("click", function(){
-    	$(".data").slideToggle();
+      $(".data").slideToggle();
     });
     </script>
     </body>
