@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html class="no-js">
     <head>
@@ -12,6 +13,19 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <?php
 /*wunderground API*/
+=======
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' href='css/build.css' />
+<title>Should I Bike?</title>
+
+<?php
+/*wunderground API
+
+>>>>>>> b777d8aaac7ec98d0c5a93a04c44440e87543db1
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml");
 $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/CA/San_Francisco.xml");
 $hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/CA/San_Francisco.xml");
@@ -29,6 +43,13 @@ $astronomy_info = $astronomy->xpath('moon_phase');
 $realtemp = $weather_info[0]->temp_f ;
 $feels = $weather_info[0]->feelslike_f;
 $icon;
+
+*/
+
+//Testing files
+  $weather = simplexml_load_file("xml/conditions.xml"); /* gets current observation */
+  $astronomy = simplexml_load_file("xml/astronomy.xml"); /* gets sunrise and sunset times */
+  $hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
 
 /*Sunrise fixed 24clock*/
 $sunrise = $astronomy_info[0]->sunrise->hour;

@@ -1,0 +1,134 @@
+
+<response>
+	<version>0.1</version>
+	<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>
+	<features>
+		<feature>conditions</feature>
+	</features>
+  <current_observation>
+		<image>
+		<url>http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png</url>
+		<title>Weather Underground</title>
+		<link>http://www.wunderground.com</link>
+		</image>
+		<display_location>
+		<full>San Francisco, CA</full>
+		<city>San Francisco</city>
+		<state>CA</state>
+		<state_name>California</state_name>
+		<country>US</country>
+		<country_iso3166>US</country_iso3166>
+		<zip>94101</zip>
+		<magic>1</magic>
+		<wmo>99999</wmo>
+		<latitude>37.77500916</latitude>
+		<longitude>-122.41825867</longitude>
+		<elevation>47.00000000</elevation>
+		</display_location>
+		<observation_location>
+		<full>SOMA - Near Van Ness, San Francisco, California</full>
+		<city>SOMA - Near Van Ness, San Francisco</city>
+		<state>California</state>
+		<country>US</country>
+		<country_iso3166>US</country_iso3166>
+		<latitude>37.773285</latitude>
+		<longitude>-122.417725</longitude>
+		<elevation>49 ft</elevation>
+		</observation_location>
+		<estimated>
+		</estimated>
+		<station_id>KCASANFR58</station_id>
+		<observation_time>Last Updated on December 30, 6:01 PM PST</observation_time>
+		<observation_time_rfc822>Mon, 30 Dec 2013 18:01:39 -0800</observation_time_rfc822>
+		<observation_epoch>1388455299</observation_epoch>
+		<local_time_rfc822>Mon, 30 Dec 2013 18:01:47 -0800</local_time_rfc822>
+		<local_epoch>1388455307</local_epoch>
+		<local_tz_short>PST</local_tz_short>
+		<local_tz_long>America/Los_Angeles</local_tz_long>
+		<local_tz_offset>-0800</local_tz_offset>
+		<weather>Scattered Clouds</weather>
+		<temperature_string>55.9 F (13.3 C)</temperature_string>
+		<temp_f>55.9</temp_f>
+		<temp_c>13.3</temp_c>
+		<relative_humidity>74%</relative_humidity>
+		<wind_string>From the East at 1.0 MPH</wind_string>
+		<wind_dir>East</wind_dir>
+		<wind_degrees>80</wind_degrees>
+		<wind_mph>1.0</wind_mph>
+		<wind_gust_mph>0</wind_gust_mph>
+		<wind_kph>1.6</wind_kph>
+		<wind_gust_kph>0</wind_gust_kph>
+		<pressure_mb>1023</pressure_mb>
+		<pressure_in>30.21</pressure_in>
+		<pressure_trend>-</pressure_trend>
+		
+		<dewpoint_string>48 F (9 C)</dewpoint_string>
+		<dewpoint_f>48</dewpoint_f>
+		<dewpoint_c>9</dewpoint_c>
+		
+		
+		<heat_index_string>NA</heat_index_string>
+		<heat_index_f>NA</heat_index_f>
+		<heat_index_c>NA</heat_index_c>
+		
+		
+		<windchill_string>NA</windchill_string>
+		<windchill_f>NA</windchill_f>
+		<windchill_c>NA</windchill_c>
+		
+        <feelslike_string>55.9 F (13.3 C)</feelslike_string>
+        <feelslike_f>55.9</feelslike_f>
+        <feelslike_c>13.3</feelslike_c>
+		<visibility_mi>9.0</visibility_mi>
+		<visibility_km>14.5</visibility_km>
+		<solarradiation></solarradiation>
+		<UV>0</UV>
+		<precip_1hr_string>0.00 in ( 0 mm)</precip_1hr_string>
+		<precip_1hr_in>0.00</precip_1hr_in>
+		<precip_1hr_metric> 0</precip_1hr_metric>
+		<precip_today_string>0.00 in (0 mm)</precip_today_string>
+		<precip_today_in>0.00</precip_today_in>
+		<precip_today_metric>0</precip_today_metric>
+		
+		
+		
+		<icon>partlycloudy</icon>
+		<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+		<forecast_url>http://www.wunderground.com/US/CA/San_Francisco.html</forecast_url>
+        
+        <history_url>http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58</history_url>
+        
+		<ob_url>http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725</ob_url>
+	</current_observation>
+
+		
+	
+	
+	
+	
+    
+	
+	
+		
+	
+
+    
+    
+    
+	
+  
+	
+	
+	
+	
+	
+    
+    
+
+
+    
+    
+    
+    
+</response>
+	

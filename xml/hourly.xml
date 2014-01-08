@@ -1,0 +1,2699 @@
+
+<response>
+	<version>0.1</version>
+	<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>
+	<features>
+		<feature>hourly</feature>
+	</features>
+	<hourly_forecast>
+		<forecast>
+		<FCTTIME>
+		<hour>19</hour><hour_padded>19</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>30</mday><mday_padded>30</mday_padded><yday>363</yday><isdst>0</isdst><epoch>1388458800</epoch><pretty>7:00 PM PST on December 30, 2013</pretty><civil>7:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Monday</weekday_name><weekday_name_night>Monday Night</weekday_name_night><weekday_name_abbrev>Mon</weekday_name_abbrev><weekday_name_unlang>Monday</weekday_name_unlang><weekday_name_night_unlang>Monday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>55</english>
+				<metric>13</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Rain</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>215</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>56</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>55</english>
+					<metric>13</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>20</hour><hour_padded>20</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>30</mday><mday_padded>30</mday_padded><yday>363</yday><isdst>0</isdst><epoch>1388462400</epoch><pretty>8:00 PM PST on December 30, 2013</pretty><civil>8:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Monday</weekday_name><weekday_name_night>Monday Night</weekday_name_night><weekday_name_abbrev>Mon</weekday_name_abbrev><weekday_name_unlang>Monday</weekday_name_unlang><weekday_name_night_unlang>Monday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>53</english>
+				<metric>12</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>5</english>
+				<metric>7</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>215</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>60</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>53</english>
+					<metric>12</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>30</mday><mday_padded>30</mday_padded><yday>363</yday><isdst>0</isdst><epoch>1388466000</epoch><pretty>9:00 PM PST on December 30, 2013</pretty><civil>9:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Monday</weekday_name><weekday_name_night>Monday Night</weekday_name_night><weekday_name_abbrev>Mon</weekday_name_abbrev><weekday_name_unlang>Monday</weekday_name_unlang><weekday_name_night_unlang>Monday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>52</english>
+				<metric>11</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>4</english>
+				<metric>7</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>215</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>64</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>52</english>
+					<metric>11</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>30</mday><mday_padded>30</mday_padded><yday>363</yday><isdst>0</isdst><epoch>1388469600</epoch><pretty>10:00 PM PST on December 30, 2013</pretty><civil>10:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Monday</weekday_name><weekday_name_night>Monday Night</weekday_name_night><weekday_name_abbrev>Mon</weekday_name_abbrev><weekday_name_unlang>Monday</weekday_name_unlang><weekday_name_night_unlang>Monday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>SSW</dir>
+				<degrees>209</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>68</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>30</mday><mday_padded>30</mday_padded><yday>363</yday><isdst>0</isdst><epoch>1388473200</epoch><pretty>11:00 PM PST on December 30, 2013</pretty><civil>11:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Monday</weekday_name><weekday_name_night>Monday Night</weekday_name_night><weekday_name_abbrev>Mon</weekday_name_abbrev><weekday_name_unlang>Monday</weekday_name_unlang><weekday_name_night_unlang>Monday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>SSW</dir>
+				<degrees>209</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>69</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388476800</epoch><pretty>12:00 AM PST on December 31, 2013</pretty><civil>12:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>SSW</dir>
+				<degrees>209</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>71</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388480400</epoch><pretty>1:00 AM PST on December 31, 2013</pretty><civil>1:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>218</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>72</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388484000</epoch><pretty>2:00 AM PST on December 31, 2013</pretty><civil>2:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>3</english>
+				<metric>4</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>218</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>75</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388487600</epoch><pretty>3:00 AM PST on December 31, 2013</pretty><civil>3:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>34</sky>
+			<wspd>
+				<english>2</english>
+				<metric>4</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>218</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.22</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388491200</epoch><pretty>4:00 AM PST on December 31, 2013</pretty><civil>4:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>46</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>2</english>
+				<metric>3</metric>
+			</wspd>
+			<wdir>
+				<dir>WSW</dir>
+				<degrees>245</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>80</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>46</english>
+					<metric>8</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.20</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388494800</epoch><pretty>5:00 AM PST on December 31, 2013</pretty><civil>5:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>WSW</dir>
+				<degrees>245</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>80</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>8</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.20</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>6</hour><hour_padded>06</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388498400</epoch><pretty>6:00 AM PST on December 31, 2013</pretty><civil>6:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>WSW</dir>
+				<degrees>245</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.20</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>7</hour><hour_padded>07</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388502000</epoch><pretty>7:00 AM PST on December 31, 2013</pretty><civil>7:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>48</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>35</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>48</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.19</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>8</hour><hour_padded>08</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388505600</epoch><pretty>8:00 AM PST on December 31, 2013</pretty><civil>8:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>35</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.19</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>9</hour><hour_padded>09</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388509200</epoch><pretty>9:00 AM PST on December 31, 2013</pretty><civil>9:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>52</english>
+				<metric>11</metric>
+			</temp>
+			<dewpoint>
+				<english>44</english>
+				<metric>7</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>29</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>35</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>76</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>52</english>
+					<metric>11</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.19</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>10</hour><hour_padded>10</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388512800</epoch><pretty>10:00 AM PST on December 31, 2013</pretty><civil>10:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>54</english>
+				<metric>12</metric>
+			</temp>
+			<dewpoint>
+				<english>46</english>
+				<metric>8</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>37</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>1</uvi>
+			<humidity>74</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>54</english>
+					<metric>12</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>11</hour><hour_padded>11</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388516400</epoch><pretty>11:00 AM PST on December 31, 2013</pretty><civil>11:00 AM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>57</english>
+				<metric>14</metric>
+			</temp>
+			<dewpoint>
+				<english>44</english>
+				<metric>7</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>4</english>
+				<metric>7</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>37</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>1</uvi>
+			<humidity>64</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>57</english>
+					<metric>14</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>12</hour><hour_padded>12</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388520000</epoch><pretty>12:00 PM PST on December 31, 2013</pretty><civil>12:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>60</english>
+				<metric>15</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>NE</dir>
+				<degrees>37</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>1</uvi>
+			<humidity>55</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>60</english>
+					<metric>15</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.23</english>
+				<metric>1023</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>13</hour><hour_padded>13</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388523600</epoch><pretty>1:00 PM PST on December 31, 2013</pretty><civil>1:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>63</english>
+				<metric>17</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>NNE</dir>
+				<degrees>23</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>2</uvi>
+			<humidity>45</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>63</english>
+					<metric>17</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.18</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>14</hour><hour_padded>14</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388527200</epoch><pretty>2:00 PM PST on December 31, 2013</pretty><civil>2:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>62</english>
+				<metric>17</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>NNE</dir>
+				<degrees>23</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>2</uvi>
+			<humidity>45</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>62</english>
+					<metric>17</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.18</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>15</hour><hour_padded>15</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388530800</epoch><pretty>3:00 PM PST on December 31, 2013</pretty><civil>3:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>62</english>
+				<metric>16</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>33</sky>
+			<wspd>
+				<english>4</english>
+				<metric>7</metric>
+			</wspd>
+			<wdir>
+				<dir>NNE</dir>
+				<degrees>23</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>2</uvi>
+			<humidity>46</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>62</english>
+					<metric>16</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.18</english>
+				<metric>1022</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>16</hour><hour_padded>16</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388534400</epoch><pretty>4:00 PM PST on December 31, 2013</pretty><civil>4:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>61</english>
+				<metric>16</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>46</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>61</english>
+					<metric>16</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>17</hour><hour_padded>17</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388538000</epoch><pretty>5:00 PM PST on December 31, 2013</pretty><civil>5:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>59</english>
+				<metric>15</metric>
+			</temp>
+			<dewpoint>
+				<english>42</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>51</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>59</english>
+					<metric>15</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>18</hour><hour_padded>18</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388541600</epoch><pretty>6:00 PM PST on December 31, 2013</pretty><civil>6:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>57</english>
+				<metric>14</metric>
+			</temp>
+			<dewpoint>
+				<english>42</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>57</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>57</english>
+					<metric>14</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>19</hour><hour_padded>19</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388545200</epoch><pretty>7:00 PM PST on December 31, 2013</pretty><civil>7:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>55</english>
+				<metric>13</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>5</english>
+				<metric>8</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>62</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>55</english>
+					<metric>13</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>20</hour><hour_padded>20</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388548800</epoch><pretty>8:00 PM PST on December 31, 2013</pretty><civil>8:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>54</english>
+				<metric>12</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>4</english>
+				<metric>6</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>65</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>54</english>
+					<metric>12</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388552400</epoch><pretty>9:00 PM PST on December 31, 2013</pretty><civil>9:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>53</english>
+				<metric>12</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>32</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>68</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>53</english>
+					<metric>12</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.14</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388556000</epoch><pretty>10:00 PM PST on December 31, 2013</pretty><civil>10:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>52</english>
+				<metric>11</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>2</english>
+				<metric>3</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>71</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>52</english>
+					<metric>11</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.17</english>
+				<metric>1021</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><sec>0</sec><year>2013</year><mon>12</mon><mon_padded>12</mon_padded><mon_abbrev>Dec</mon_abbrev><mday>31</mday><mday_padded>31</mday_padded><yday>364</yday><isdst>0</isdst><epoch>1388559600</epoch><pretty>11:00 PM PST on December 31, 2013</pretty><civil>11:00 PM</civil><month_name>December</month_name><month_name_abbrev>Dec</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>51</english>
+				<metric>11</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>2</english>
+				<metric>3</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>73</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>51</english>
+					<metric>11</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.17</english>
+				<metric>1021</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388563200</epoch><pretty>12:00 AM PST on January 01, 2014</pretty><civil>12:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>51</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>2</english>
+				<metric>3</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>76</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>51</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.17</english>
+				<metric>1021</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388566800</epoch><pretty>1:00 AM PST on January 01, 2014</pretty><civil>1:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>2</english>
+				<metric>3</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>78</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.15</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388570400</epoch><pretty>2:00 AM PST on January 01, 2014</pretty><civil>2:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>2</english>
+				<metric>4</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.15</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388574000</epoch><pretty>3:00 AM PST on January 01, 2014</pretty><civil>3:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>43</sky>
+			<wspd>
+				<english>3</english>
+				<metric>4</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>302</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>81</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.15</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388577600</epoch><pretty>4:00 AM PST on January 01, 2014</pretty><civil>4:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>46</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>43</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>47</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>SE</dir>
+				<degrees>124</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>82</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>46</english>
+					<metric>8</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.00</english>
+				<metric>0.00</metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.13</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388581200</epoch><pretty>5:00 AM PST on January 01, 2014</pretty><civil>5:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>42</english>
+				<metric>6</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>47</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>SE</dir>
+				<degrees>124</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>80</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>8</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.13</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>6</hour><hour_padded>06</hour_padded><min>00</min><sec>0</sec><year>2014</year><mon>1</mon><mon_padded>01</mon_padded><mon_abbrev>Jan</mon_abbrev><mday>1</mday><mday_padded>01</mday_padded><yday>0</yday><isdst>0</isdst><epoch>1388584800</epoch><pretty>6:00 AM PST on January 01, 2014</pretty><civil>6:00 AM</civil><month_name>January</month_name><month_name_abbrev>Jan</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>42</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>47</sky>
+			<wspd>
+				<english>3</english>
+				<metric>5</metric>
+			</wspd>
+			<wdir>
+				<dir>SE</dir>
+				<degrees>124</degrees>
+			</wdir>
+			<wx></wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</windchill>
+			<heatindex>
+				<english>-9998</english>
+				<metric>-9998</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>47</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english></english>
+				<metric></metric>
+			</qpf>
+			<snow>
+				<english></english>
+				<metric></metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>30.13</english>
+				<metric>1020</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	</hourly_forecast>
+
+    
+    
+    
+	
+  
+	
+	
+	
+	
+	
+    
+    
+
+
+    
+    
+    
+    
+</response>
+	

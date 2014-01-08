@@ -1,3 +1,6 @@
 #Build Files
+node_modules/
 dploy.yaml
-xml/
+.sass-cache/
+gruntfile.js
+
