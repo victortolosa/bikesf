@@ -365,6 +365,7 @@ html, body {
   text-shadow: 0 1px 1px #111;
   position: relative;
   height: 100%;
+  min-height: 180px;
   width: 100%;
   overflow-y: no-scroll; }
 
@@ -389,10 +390,18 @@ html, body {
   width: 800px;
   text-align: center;
   font-size: 1.3em; }
+  .answer > h1 {
+    display: inline-block;
+    position: relative; }
 
 span.arrow {
   color: #555;
-  cursor: pointer; }
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: -1em;
+  font-size: 1em;
+  bottom: 0; }
   span.arrow:hover {
     color: #888; }
 
@@ -451,7 +460,7 @@ span.current-info {
       right: 0;
       left: 0;
       bottom: 0;
-      height: 110px;
+      height: 100px;
       width: 100px;
       text-align: center; }
       .forecast ul li span h1 {
@@ -462,9 +471,41 @@ span.current-info {
         font-family: Meteocons; }
       .forecast ul li span p {
         padding: 0;
+        padding-top: 5px;
         margin: 0; }
       .forecast ul li span p:last-child {
+        padding: 0;
         font-size: .9em; }
+
+.forecast ul li:nth-child(1) {
+  background-color: #3d3d3d; }
+
+.forecast ul li:nth-child(2) {
+  background-color: #424242; }
+
+.forecast ul li:nth-child(3) {
+  background-color: #474747; }
+
+.forecast ul li:nth-child(4) {
+  background-color: #4d4d4d; }
+
+.forecast ul li:nth-child(5) {
+  background-color: #525252; }
+
+.forecast ul li:nth-child(6) {
+  background-color: #575757; }
+
+.forecast ul li:nth-child(7) {
+  background-color: #5c5c5c; }
+
+.forecast ul li:nth-child(8) {
+  background-color: #616161; }
+
+.forecast ul li:nth-child(9) {
+  background-color: #666666; }
+
+.forecast ul li:nth-child(10) {
+  background-color: #6b6b6b; }
 
 @media (max-width: 900px) {
   .forecast ul li {
@@ -491,3 +532,27 @@ span.current-info {
 @media (max-width: 300px) {
   .forecast ul li {
     width: 100%; } }
+@media (max-height: 700px) {
+  .forecast ul li {
+    font-size: .7em; }
+
+  .forecast ul li span {
+    height: 50px; }
+
+  ul.data {
+    font-size: .8em; } }
+@media (max-height: 400px) {
+  .boolean {
+    height: 100%; }
+
+  .forecast {
+    height: 35%; }
+
+  .forecast ul li {
+    font-size: .7em; }
+
+  .forecast ul li span {
+    height: 40px; }
+
+  ul.data {
+    font-size: .6em; } }

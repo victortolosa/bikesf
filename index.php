@@ -9,7 +9,7 @@
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
         <?php
 /*wunderground API*/
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml");
@@ -28,7 +28,7 @@ $weather_info = $weather->xpath('current_observation');
 $astronomy_info = $astronomy->xpath('moon_phase');
 $realtemp = $weather_info[0]->temp_f ;
 $feels = $weather_info[0]->feelslike_f;
-$icon;
+
 
 /*Sunrise fixed 24clock*/
 $sunrise = $astronomy_info[0]->sunrise->hour;
@@ -88,13 +88,18 @@ function hourlyforecast($i){
     $time = $hourly->hourly_forecast->forecast[$i]->FCTTIME->civil;
     $condition = $hourly->hourly_forecast->forecast[$i]->condition;
     $temp = $hourly->hourly_forecast->forecast[$i]->temp->english;
-    if($condition == "cloudy" || $condition == "Fog" || $condition == "Partly Cloudy" || $condition == "Scattered Clouds"){
+    if($condition == "Light Fog" || $condition == "Heavy Fog" || $condition == "Fog" || $condition == "Patches of Fog" || $condition == "Haze" || $condition == "Overcast") {
       $hrIcon = "A";
+    } else if ( $condition == "Partly Cloudy" || $condition == "Mostly Cloudy" || $condition == "Scattered Clouds" || $condition == "Cloudy"){
+      $hrIcon = "H";
+    } else if ( $condition == "Snow" || $condition == "Hail"){
+      $hrIcon = "V";
     } else if( $condition == "Rain" || $condition == "Drizzle" || $condition == "Light Drizzle" || $condition == "Heavy Drizzle" || $condition == "Light Rain" || $condition == "Heavy Rain") {
       $hrIcon = "R";
     } else {
       $hrIcon = "B";
     }
+
     return "<li><span><h1>" . $hrIcon . "</h1><p>" . $time . " </p><p> " . $condition . "</p></span></li>";
 }
 
@@ -116,40 +121,39 @@ function forecastTime($time){
 if ($currentWeather == "Drizzle" || $currentWeather == "Rain" || $currentWeather == "Light Drizzle" ||$currentWeather == "Heavy Drizzle" || $currentWeather == "Rain" || $currentWeather == "Light Rain" || $currentWeather == "Heavy Rain" || $currentWeather == "Rain"){
     $bike = "Don't bike in";
     $icon = "R";
+} else if ($currentWeather == "Light Fog" || $currentWeather == "Heavy Fog" || $currentWeather == "Fog" || $currentWeather == "Overcast" || $currentWeather == "Partly Cloudy" || $currentWeather == "Mostly Cloudy" || $currentWeather == "Scattered Clouds") {
+  $icon = "A";
+  $bike = "It's okay to bike in";
 } else {
   $icon = "B";
-    $bike = "It's okay to bike in";
+  $bike = "It's okay to bike in";
 }
-/* warns for bad weather in 8hr forecast */
-
+/* warns for bad weather in hourly forecast */
 function checkForecast($checkthis){
 
-global $bike;
-   if ($bike == "Yes" && (
-    forecast($checkthis) == "Freezing Rain" ||
+   if ($bike == "It's okay to bike in" && (
+      forecast($checkthis) == "Freezing Rain" ||
       forecast($checkthis) == "Rain" ||
       forecast($checkthis) == "Sleet" ||
       forecast($checkthis) == "Snow" ||
       forecast($checkthis) == "Rain Showers") ){
-global $icon;
-global $why;
-$icon = "R";
- $why = forecast($checkthis) . " at " . forecastTime($checkthis);
- $bike = "Maybe, consider the forecast in";
+  global $bike;
+ $bike = "Maybe, consider the forecast in at" . forecastTime($checkthis);
 }
   if (forecast($checkthis) == "Chance of Rain" ||
       forecast($checkthis) == "Chance of Freezing Rain" ||
       forecast($checkthis) == "Chance of Sleet" ||
       forecast($checkthis) == "Chance of Snow"){
-    global $why;
+ 
   global $icon;
   $icon = "T";
-    $why = "It's okay to bike, but consider" . forecast($checkthis). " at " . forecastTime($checkthis); 
+    $bike = "It's okay to bike, but consider" . forecast($checkthis). " at " . forecastTime($checkthis); 
+
     }
 }
 
 /*run the 8hr forecast bad weather check*/
-for ($i=0;$i<9;$i++){
+for ($i=0;$i<10;$i++){
 checkForecast($i);
 }
 
@@ -160,7 +164,7 @@ global $bike;
 global $icon;
   $icon = "R";
     $bike =  "Don't bike in";
-    $why = "It's gonna rain soon!";
+
 
 }
 
@@ -177,8 +181,8 @@ global $icon;
         <h1 class="icon"><?php echo $icon; ?></h1>
         <h3> <?php echo $weather_info[0]->temp_f ?>&deg;F<br><?php echo $weather_info[0]->weather ?></h3>
       </span>
-      <h1> <?php echo $bike;?> <em>San Francisco.</em> <span class="arrow">+</span></h1>
-  
+      <h1> <?php echo $bike;?> <em>San Francisco.</em><span class="arrow">+</span></h1>
+      
       <ul class="data">
       <li>Sunrise at: <?php echo $sunrise?>:<?php echo $astronomy_info[0]->sunrise->minute;?> <?php echo $sunriseTime?></li>
       <li>Sunset at: <?php echo $sunset ?>:<?php echo $astronomy_info[0]->sunset->minute;?> <?php echo $sunsetTime?></li>
@@ -187,7 +191,7 @@ global $icon;
       <li>Wind Speed: <?php echo $weather_info[0]->wind_mph ?>MPH</li>
       <li>Wind Chill: <?php echo $windchill; ?></li>
       <li><?php echo $showperciptoday; ?></li>
-          <li><?php echo $showperciphour; ?></li>
+      <li><?php echo $showperciphour; ?></li>
       </ul>
       </div>
 
@@ -203,11 +207,13 @@ global $icon;
             </ul>
         </div>
         </div>  
-     
-    <script>
-    $(".arrow").on ("click", function(){
-      $(".data").slideToggle();
-    });
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script >
+   $('.arrow').on ("click", function(){
+    var newText = $(this).text() == "+" ? "-" : "+";
+    $(this).text(newText);
+    $(".data").slideToggle();
+ });
     </script>
     </body>
 </html>

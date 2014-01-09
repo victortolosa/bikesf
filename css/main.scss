@@ -25,6 +25,7 @@ html, body { width: 100%; height: 100%; background-color: darken(#444, 3%);}
     text-shadow: 0 1px 1px #111;
     position:relative;
     height: 100%;
+    min-height:180px;
     width: 100%;
     overflow-y: no-scroll;
 }
@@ -45,11 +46,21 @@ html, body { width: 100%; height: 100%; background-color: darken(#444, 3%);}
     height:150px;
     width:800px;
     text-align:center;
-    font-size:1.3em;   
+    font-size:1.3em;  
+    &>h1{
+        display:inline-block;
+        position:relative;
+    } 
 }
 span.arrow {
     color:#555;
     cursor:pointer;
+    display:block;
+    position:absolute;
+    right:-1em;
+    font-size:1em;
+    bottom:0;
+
     &:hover{
         color:#888;
     }
@@ -118,7 +129,7 @@ span.current-info {
             position:absolute;
             margin: auto;
             top:0;right:0;left:0; bottom:0;
-            height:110px;
+            height:100px;
             width:100px;
             text-align:center;
             h1{
@@ -128,18 +139,19 @@ span.current-info {
                 font-family: Meteocons;
             }
             p {
-                padding:0;margin:0;
+                padding:0;padding-top:5px;margin:0;
             }
             p:last-child{
+                padding:0;
                 font-size:.9em;
             }
     }
     }
 }
 
-
-
-
+@for $i from 1 through 10 {
+  .forecast ul li:nth-child( #{$i} ) { background-color: lighten(#333, 2% + ( $i * 2 )); }
+}
 
 
 
@@ -178,4 +190,34 @@ span.current-info {
     .forecast ul li {
         width: 100%;
     }
+}
+@media (max-height: 700px){
+    .forecast ul li {
+        font-size: .7em;
+    }
+    .forecast ul li span{
+        height:50px;
+    }
+    ul.data {
+        font-size: .8em;
+    }
+    
+}
+@media (max-height: 400px){
+    .boolean{
+        height:100%;
+    }
+    .forecast{
+        height:35%;
+    }
+    .forecast ul li {
+        font-size: .7em;
+    }
+    .forecast ul li span{
+        height:40px;
+    }
+    ul.data {
+        font-size: .6em;
+    }
+
 }
