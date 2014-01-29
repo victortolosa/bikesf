@@ -411,6 +411,7 @@ ul.data {
   display: inline-block;
   display: none;
   margin: 20px auto;
+  margin-top: 0;
   text-align: center; }
 
 span.current-info {
@@ -514,8 +515,14 @@ span.current-info {
   .answer {
     font-size: .8em;
     height: 100px;
-    width: 460px; } }
-@media (max-width: 900px) and (max-width: 700px) {
+    width: 460px; }
+
+  ul.data {
+    margin-top: 1em; }
+
+  ul.data li {
+    font-size: 1.3em; } }
+@media (max-width: 700px) {
   .forecast ul li {
     width: 33.333%; }
 
@@ -525,13 +532,22 @@ span.current-info {
 
   .answer {
     font-size: .7em;
-    width: 230px; } }
+    width: 230px; }
+
+  ul.data li {
+    font-size: 1.2em; } }
 @media (max-width: 500px) {
   .forecast ul li {
-    width: 50%; } }
+    width: 50%; }
+
+  ul.data li {
+    font-size: 1em; } }
 @media (max-width: 300px) {
   .forecast ul li {
-    width: 100%; } }
+    width: 100%; }
+
+  ul.data li {
+    font-size: 1em; } }
 @media (max-height: 700px) {
   .forecast ul li {
     font-size: .7em; }
@@ -539,8 +555,8 @@ span.current-info {
   .forecast ul li span {
     height: 50px; }
 
-  ul.data {
-    font-size: .8em; } }
+  ul.data li {
+    font-size: 1.1em; } }
 @media (max-height: 400px) {
   .boolean {
     height: 100%; }

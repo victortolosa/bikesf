@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        
-        <?php
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Should I Bike?</title>
+  <meta name="description" content="Should I Bike in San Francisco?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-47017712-1', 'victortolosa.com');
+  ga('send', 'pageview');
+  </script>
+<?php
+
+//if(file_exists('http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml')) {
+
+$xmlfail = false;
+$location = "San Francisco";
 /*wunderground API*/
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml");
 $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/CA/San_Francisco.xml");
 $hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/CA/San_Francisco.xml");
 
-
+//} else {
+//$xmlfail = true;
+//$location = "API is down.";
 
 //Testing files
-//$weather = simplexml_load_file("xml/conditions.xml"); /* gets current observation */
-//$astronomy = simplexml_load_file("xml/astronomy.xml"); /* gets sunrise and sunset times */
+//$weather = simplexml_load_file("xml/conditions-fail.xml"); /* gets current observation */
+//$astronomy = simplexml_load_file("xml/astronomy-fail.xml"); /* gets sunrise and sunset times */
 //$hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
-
+//}
 
 $weather_info = $weather->xpath('current_observation'); 
 $astronomy_info = $astronomy->xpath('moon_phase');
@@ -94,7 +108,7 @@ function hourlyforecast($i){
       $hrIcon = "H";
     } else if ( $condition == "Snow" || $condition == "Hail"){
       $hrIcon = "V";
-    } else if( $condition == "Rain" || $condition == "Drizzle" || $condition == "Light Drizzle" || $condition == "Heavy Drizzle" || $condition == "Light Rain" || $condition == "Heavy Rain") {
+    } else if ( $condition == "Rain" || $condition == "Chance of Rain" || $condition == "Rain Showers" || $condition == "Drizzle" || $condition == "Light Drizzle" || $condition == "Heavy Drizzle" || $condition == "Light Rain" || $condition == "Heavy Rain") {
       $hrIcon = "R";
     } else {
       $hrIcon = "B";
@@ -116,19 +130,31 @@ function forecastTime($time){
   return $hourlyForecastTime;
 }
 /* end - declaring 8hr forecast variables */
+
 /*checks current weather*/
   $currentWeather = $weather_info[0]->weather;
 if ($currentWeather == "Drizzle" || $currentWeather == "Rain" || $currentWeather == "Light Drizzle" ||$currentWeather == "Heavy Drizzle" || $currentWeather == "Rain" || $currentWeather == "Light Rain" || $currentWeather == "Heavy Rain" || $currentWeather == "Rain"){
     $bike = "Don't bike in";
     $icon = "R";
-} else if ($currentWeather == "Light Fog" || $currentWeather == "Heavy Fog" || $currentWeather == "Fog" || $currentWeather == "Overcast" || $currentWeather == "Partly Cloudy" || $currentWeather == "Mostly Cloudy" || $currentWeather == "Scattered Clouds") {
+} else if ($currentWeather == "Light Fog" || $currentWeather == "Mostly Cloudy" || $currentWeather == "Heavy Fog" || $currentWeather == "Fog" || $currentWeather == "Overcast" || $currentWeather == "Partly Cloudy" || $currentWeather == "Mostly Cloudy" || $currentWeather == "Scattered Clouds") {
   $icon = "A";
   $bike = "It's okay to bike in";
 } else {
   $icon = "B";
   $bike = "It's okay to bike in";
 }
+
+/*checks next hourly forecast*/
+ if ($bike == "It's okay to bike in" && forecast(0) == "Rain" || forecast(0) == "Chance of Rain" ||  forecast(0) == "Light Drizzle" || forecast(0) == "Heavy Drizzle" || forecast(0) == "Drizzle" ||  forecast(0) == "Rain Showers") {
+global $bike;
+global $icon;
+ 
+  $location = "";
+  $bike =  "Consider " .  forecast(0) . " at ". forecastTime(0);
+}
+
 /* warns for bad weather in hourly forecast */
+/*
 function checkForecast($checkthis){
 
    if ($bike == "It's okay to bike in" && (
@@ -152,36 +178,30 @@ function checkForecast($checkthis){
     }
 }
 
-/*run the 8hr forecast bad weather check*/
 for ($i=0;$i<10;$i++){
 checkForecast($i);
 }
-
-
-/*checks next hourly forecast*/
- if (forecast(0) == "Rain" || forecast(0) == "Light Drizzle" || forecast(0) == "Heavy Drizzle" || forecast(0) == "Drizzle" ||  forecast(0) == "Rain Showers") {
-global $bike;
-global $icon;
-  $icon = "R";
-    $bike =  "Don't bike in";
-
-
-}
-
+*/
 ?>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-        <div class="boolean">
+      <div class="container">
+      <div class="boolean">
       <div class="answer">
       <span class="current-info">
         <h1 class="icon"><?php echo $icon; ?></h1>
         <h3> <?php echo $weather_info[0]->temp_f ?>&deg;F<br><?php echo $weather_info[0]->weather ?></h3>
       </span>
-      <h1> <?php echo $bike;?> <em>San Francisco.</em><span class="arrow">+</span></h1>
+      <h1> 
+      <?php
+   
+       echo $bike;
+      
+      ?> 
+      <em><?php echo $location ?></em><span class="arrow">+</span></h1>
       
       <ul class="data">
       <li>Sunrise at: <?php echo $sunrise?>:<?php echo $astronomy_info[0]->sunrise->minute;?> <?php echo $sunriseTime?></li>
@@ -200,9 +220,13 @@ global $icon;
         <div class="forecast">
             <ul>
                  <?php
+      if($xmlfail == false){
         for ($x=0; $x<10; $x++){
           echo hourlyforecast($x);
         }
+      } else {
+        echo "";
+      }
         ?>
             </ul>
         </div>
