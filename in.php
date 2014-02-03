@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Should I Bike?</title>
-  <meta name="description" content="Should I Bike?">
+  <meta name="description" content="Should I Bike in San Francisco?">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -26,6 +26,15 @@ $xmlfail = false;
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/San_Francisco.xml");
 $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/CA/San_Francisco.xml");
 $hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/CA/San_Francisco.xml");
+
+$zipcode = $_SERVER['QUERY_STRING'];
+
+if(is_numeric($zipcode)){
+  $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/CA/" . $zipcode . ".xml" );
+  $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/CA/" . $zipcode . ".xml" );
+  $hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/CA/" . $zipcode . ".xml" );
+} 
+
 
 //} else {
 //$xmlfail = true;
