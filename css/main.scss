@@ -17,7 +17,6 @@
     padding:0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-
 }
 html, body { width: 100%; height: 100%; background-color: darken(#444, 3%);}
 .container{ 
@@ -28,12 +27,14 @@ html, body { width: 100%; height: 100%; background-color: darken(#444, 3%);}
     min-height:180px;
     width: 100%;
     overflow-y: no-scroll;
+    background: #333 url("imgs/bikenow-min.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 .boolean{
     float:left;
     height:80%;
     width:100%;
-    background-color: #333;
+    background-color: transparent;
     font-family: Montserrat;
     color: #fff;
     position:relative;

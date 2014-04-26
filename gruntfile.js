@@ -21,7 +21,7 @@ sass: {
             style: 'nested'
         },
         files: {
-            'css/build.css':'css/global.scss'
+            'css/build.css':'css/main.scss'
         }
     } 
 }
