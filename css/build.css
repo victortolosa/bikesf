@@ -367,7 +367,7 @@ html, body {
   min-height: 180px;
   width: 100%;
   overflow-y: no-scroll;
-  background: #333333 url("imgs/bikenow-min.jpg") no-repeat center center fixed;
+  background: #333333 url("../imgs/bikenow-min.jpg") no-repeat center center fixed;
   background-size: cover; }
 
 .boolean {
@@ -480,34 +480,34 @@ span.current-info {
         font-size: .9em; }
 
 .forecast ul li:nth-child(1) {
-  background-color: #3d3d3d; }
+  background-color: rgba(10, 10, 10, 0.6); }
 
 .forecast ul li:nth-child(2) {
-  background-color: #424242; }
+  background-color: rgba(15, 15, 15, 0.6); }
 
 .forecast ul li:nth-child(3) {
-  background-color: #474747; }
+  background-color: rgba(20, 20, 20, 0.6); }
 
 .forecast ul li:nth-child(4) {
-  background-color: #4d4d4d; }
+  background-color: rgba(26, 26, 26, 0.6); }
 
 .forecast ul li:nth-child(5) {
-  background-color: #525252; }
+  background-color: rgba(31, 31, 31, 0.6); }
 
 .forecast ul li:nth-child(6) {
-  background-color: #575757; }
+  background-color: rgba(36, 36, 36, 0.6); }
 
 .forecast ul li:nth-child(7) {
-  background-color: #5c5c5c; }
+  background-color: rgba(41, 41, 41, 0.6); }
 
 .forecast ul li:nth-child(8) {
-  background-color: #616161; }
+  background-color: rgba(46, 46, 46, 0.6); }
 
 .forecast ul li:nth-child(9) {
-  background-color: #666666; }
+  background-color: rgba(51, 51, 51, 0.6); }
 
 .forecast ul li:nth-child(10) {
-  background-color: #6b6b6b; }
+  background-color: rgba(56, 56, 56, 0.6); }
 
 @media (max-width: 900px) {
   .forecast ul li {
