@@ -500,6 +500,8 @@ span.current-info {
     width: 25%; }
     .forecast ul li:nth-child(4):after, .forecast ul li:nth-child(8):after {
       display: none; }
+    .forecast ul li:nth-child(5):after {
+      display: block; }
 
   .answer {
     font-size: .8em;
@@ -514,7 +516,9 @@ span.current-info {
 @media (max-width: 700px) {
   .forecast ul li {
     width: 33.333%; }
-    .forecast ul li:nth-child(3):after, .forecast ul li:nth-child(3):after, .forecast ul li:nth-child(5):after {
+    .forecast ul li:nth-child(8):after, .forecast ul li:nth-child(4):after {
+      display: block; }
+    .forecast ul li:nth-child(3):after, .forecast ul li:nth-child(6):after, .forecast ul li:nth-child(9):after {
       display: none; }
 
   .forecast ul li span {
@@ -532,12 +536,18 @@ span.current-info {
     width: 50%; }
     .forecast ul li:nth-child(even):after {
       display: none; }
+    .forecast ul li:nth-child(odd):after {
+      display: block; }
 
   ul.data li {
     font-size: 1em; } }
 @media (max-width: 300px) {
   .forecast ul li {
     width: 100%; }
+    .forecast ul li:nth-child(even):after {
+      display: none; }
+    .forecast ul li:nth-child(odd):after {
+      display: none; }
 
   ul.data li {
     font-size: 1em; } }

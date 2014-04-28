@@ -179,6 +179,9 @@ span.current-info {
         &:nth-child(4):after,  &:nth-child(8):after,{
             display:none;
         }
+        &:nth-child(5):after{
+            display:block;
+        }
     }
     .answer {
         font-size: .8em;
@@ -195,10 +198,15 @@ span.current-info {
 @media (max-width: 700px){
     .forecast ul li {
         width: 33.333%;
-        &:nth-child(3):after,  &:nth-child(3):after, &:nth-child(5):after{
+    
+        &:nth-child(8):after,&:nth-child(4):after{
+            display:block;
+        }
+        &:nth-child(3):after, &:nth-child(6):after, &:nth-child(9):after{
             display:none;
         }
     }
+    
     .forecast ul li span {
         font-size: .8em;
         height:70px;
@@ -217,6 +225,9 @@ span.current-info {
         &:nth-child(even):after{
             display:none;
         }
+        &:nth-child(odd):after{
+            display:block;
+        }
     }
     ul.data li {
         font-size: 1em;
@@ -225,6 +236,12 @@ span.current-info {
 @media (max-width: 300px){
     .forecast ul li {
         width: 100%;
+        &:nth-child(even):after{
+            display:none;
+        }
+        &:nth-child(odd):after{
+            display:none;
+        }
     }
     ul.data li {
         font-size: 1em;
