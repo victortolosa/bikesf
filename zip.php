@@ -9,15 +9,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/build.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-47017712-1', 'victortolosa.com');
-  ga('send', 'pageview');
-  </script>
+  
 <?php
+
 
 $xmlfail = false;
 //Testing files
@@ -25,8 +19,14 @@ $xmlfail = false;
 //$astronomy = simplexml_load_file("xml/astronomy-fail.xml"); /* gets sunrise and sunset times */
 //$hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
 //}
-
 $zipcode = $_POST["zipcode"];
+$url= $_SERVER['REQUEST_URI'];
+preg_match("/[^\/]+$/", $url, $matches);
+$last_word = $matches[0]; 
+$zipurl = substr($last_word, 4);
+if(is_numeric($zipurl)){
+  $zipcode = $zipurl;
+} 
 
 $weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/" . $zipcode . ".xml" );
 $astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/" . $zipcode . ".xml" );

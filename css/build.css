@@ -407,7 +407,7 @@ span.arrow {
     color: #888; }
 
 ul.data {
-  font-size: 1em;
+  font-size: .8em;
   color: #888;
   list-style: none;
   display: inline-block;
