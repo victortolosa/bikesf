@@ -142,7 +142,6 @@ if ($currentWeather == "Drizzle" || $currentWeather == "Rain" || $currentWeather
  if ($bike == "It's okay to bike in" && forecast(0) == "Rain" || forecast(0) == "Chance of Rain" ||  forecast(0) == "Light Drizzle" || forecast(0) == "Heavy Drizzle" || forecast(0) == "Drizzle" ||  forecast(0) == "Rain Showers") {
 global $bike;
 global $icon;
- 
   $location = "";
   $bike =  "Consider " .  forecast(0) . " at ". forecastTime(0);
 }
