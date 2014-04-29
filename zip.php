@@ -9,7 +9,15 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/build.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  
+  <style>
+  <?php 
+  if($condition == "rain"){
+  	echo "body, html { background: #333 url('imgs/rain.jpg') center center no-repeat fixed; background-size:cover; }";
+  }else{
+  echo "body, html { background: #333 url('imgs/bikenow4.jpg') center center no-repeat fixed; background-size:cover; }";
+}
+  ?>
+  </style>
 <?php
 
 
