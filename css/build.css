@@ -394,7 +394,7 @@ html, body {
     position: relative; }
 
 span.arrow {
-  color: #555;
+  color: #ddd;
   cursor: pointer;
   display: block;
   position: absolute;
@@ -402,11 +402,11 @@ span.arrow {
   font-size: 1em;
   bottom: 0; }
   span.arrow:hover {
-    color: #888; }
+    color: #fff; }
 
 ul.data {
   font-size: .8em;
-  color: #888;
+  color: #fff;
   list-style: none;
   display: inline-block;
   display: none;
