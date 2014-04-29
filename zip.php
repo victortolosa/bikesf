@@ -23,9 +23,9 @@
 
 $xmlfail = false;
 //Testing files
-//$weather = simplexml_load_file("xml/conditions-fail.xml"); /* gets current observation */
-//$astronomy = simplexml_load_file("xml/astronomy-fail.xml"); /* gets sunrise and sunset times */
-//$hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
+$weather = simplexml_load_file("xml/conditions-fail.xml"); /* gets current observation */
+$astronomy = simplexml_load_file("xml/astronomy-fail.xml"); /* gets sunrise and sunset times */
+$hourly = simplexml_load_file("xml/hourly.xml"); /* gets hourly forecast */
 //}
 $zipcode = $_POST["zipcode"];
 $url= $_SERVER['REQUEST_URI'];
@@ -36,9 +36,9 @@ if(is_numeric($zipurl)){
   $zipcode = $zipurl;
 } 
 
-$weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/" . $zipcode . ".xml" );
-$astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/" . $zipcode . ".xml" );
-$hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/" . $zipcode . ".xml" );
+//$weather = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/conditions/q/" . $zipcode . ".xml" );
+//$astronomy = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/astronomy/q/" . $zipcode . ".xml" );
+//$hourly = simplexml_load_file("http://api.wunderground.com/api/87df596a569c0e60/hourly/q/" . $zipcode . ".xml" );
 
 
 $weather_info = $weather->xpath('current_observation'); 
