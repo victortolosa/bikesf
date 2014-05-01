@@ -14,7 +14,7 @@
   if($condition == "rain"){
   	echo "html { background: #333 url(imgs/rain1.JPG) center center no-repeat fixed; background-size:cover; }";
   }else{
-  echo "html { background: #333 url(imgs/bikenow3.jpg) center center no-repeat fixed; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover;}";
+  echo "html { background: #333 url(imgs/bikenow3.JPG) center center no-repeat fixed; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover;}";
 }
   ?>
  
