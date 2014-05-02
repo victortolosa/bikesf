@@ -96,10 +96,28 @@
 			text-decoration:none;
 			color:#fff;
 		}
+		.sidebar{
+			display:block;
+			background-color: black;
+			position:absolute;
+			width:200px;
+			height:100%;
+			left:-200px;
+			top:0;
+			bottom:0;
+
+
+		}
 		
 	</style>
 </head>
 <body>
+<div class="sidebar-button">
+	<a href="#">Button</a>
+</div>
+<div class="sidebar">
+
+</div>
 <div class="container">
 <svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
@@ -236,6 +254,11 @@
 		<li><a href="http://victortolosa.com/bike/zip?94015">DALY CITY</a></li>
 	</ul>
 </div>
-
+    <script src="assets/jquery.js"></script>
+    <script >
+   $('.sidebar-button').on ("click", function(){
+    $(".sidebar").css("left": "0");
+ 	});
+    </script>
 </body>
 </html>
