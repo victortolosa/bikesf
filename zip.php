@@ -31,15 +31,16 @@ $xmlfail = false;
 //}
 $zipcode = $_POST["zipcode"];
 if(!is_numeric($zipcode)){
-$geocode = simplexml_load_file("http://maps.googleapis.com/maps/api/geocode/xml?address=dalycity+ca&sensor=true");
+$geocode = simplexml_load_file("http://maps.googleapis.com/maps/api/geocode/xml?address=" . $zipcode . "&sensor=true");
 $lat = $geocode->xpath("result/geometry/location/lat");
-$lng = $geocode->xpath("result/geometry/location/long");
+$lng = $geocode->xpath("result/geometry/location/lng");
 $lat = $lat[0];
 $lng = $lng[0];
 $preGetzip = "http://maps.googleapis.com/maps/api/geocode/xml?latlng=" . $lat . "," . $lng . "&sensor=true";
 $getzip = simplexml_load_file( $preGetzip );
-$convertzip = $getzip->xpath("result[3]/address_component/short_name");
+$convertzip = $getzip->xpath("result[0]/address_component[7]/short_name");
 $zipcode = $convertzip[0];
+echo $zipcode;
 }
 
 $url= $_SERVER['REQUEST_URI'];
