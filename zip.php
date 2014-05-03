@@ -36,7 +36,7 @@ $lat = $geocode->xpath("result/geometry/location/lat");
 $lng = $geocode->xpath("result/geometry/location/long");
 $lat = $lat[0];
 $lng = $lng[0];
-$preGetzip = "http://maps.googleapis.com/maps/api/geocode/xml?latlng=" . $lat , "," . $lng . "&sensor=true";
+$preGetzip = "http://maps.googleapis.com/maps/api/geocode/xml?latlng=" . $lat . "," . $lng . "&sensor=true";
 $getzip = simplexml_load_file( $preGetzip );
 $convertzip = $getzip->xpath("result[3]/address_component/short_name");
 $zipcode = $convertzip[0];
