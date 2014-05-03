@@ -36,11 +36,10 @@ $lat = $geocode->xpath("result/geometry/location/lat");
 $lng = $geocode->xpath("result/geometry/location/long");
 $lat = $lat[0];
 $lng = $lng[0];
-$getzip = simplexml_load_file("http://maps.googleapis.com/maps/api/geocode/xml?latlng=44.52357920000001,-89.5745630&sensor=true");
+$getzip = simplexml_load_file("http://maps.googleapis.com/maps/api/geocode/xml?latlng=" . $lat , "," . $lng . "&sensor=true");
 $convertzip = $getzip->xpath("result[3]/address_component/short_name");
 $zipcode = $convertzip[0];
 }
-
 
 $url= $_SERVER['REQUEST_URI'];
 preg_match("/[^\/]+$/", $url, $matches);
